@@ -1,12 +1,13 @@
 public class Runner {
     public static void main(String[] args) {
-        System.out.println("yo hi");
-        System.out.println("yo whats up");
-        int a = 1;
-        int b = 2;
-        System.out.println(a + b);
-        System.out.println("new change");
-        System.out.println("new change 2");
-        System.out.println("yooo i think the transfer worked lets goo");
+        int counter = 0;
+        while (counter >= 0) {
+            counter++;
+        }
+        System.out.println("final counter: " + counter);
+
+
+
+
     }
 }
